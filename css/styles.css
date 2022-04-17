@@ -1,0 +1,25 @@
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(#FF7C1F, #05D2E6);
+    margin-bottom: 0px;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+h1, h2, h3 {
+    font-family: "Mullish"
+  }
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    margin-top: 20px;
+}
+
+.header {
+    display: block;
+  }
