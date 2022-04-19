@@ -12,14 +12,18 @@ h1, h2, h3 {
     font-family: "Mullish"
   }
 
-p {
-    margin-top: 20px;
+.jumbo-h2 {
+    margin-top: 50px;
 }
 
-a {
-    margin-top: 20px;
-}
+.jumbo-button {
+    margin-top: 5px;
+} 
 
 .header {
     display: block;
   }
+
+nav {
+    background-color:#FF7C1F;
+}
