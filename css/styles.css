@@ -1,28 +1,14 @@
-.jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(#FF7C1F, #05D2E6);
-    margin-bottom: 0px;
-}
-
 body {
     font-family: "Poppins";
 }
 
 h1, h2, h3 {
     font-family: "Mullish"
-  }
-
-.jumbo-h2 {
-    margin-top: 50px;
 }
-
-.jumbo-button {
-    margin-top: 5px;
-} 
 
 .header {
     display: block;
-  }
+}
 
 nav {
     background-color:#FF7C1F;
@@ -33,4 +19,15 @@ nav {
     right: 0;
     bottom: 0;
     z-index: 100;
-  }
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    opacity: 0.4;
+}

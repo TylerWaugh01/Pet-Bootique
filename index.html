@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
-
     <title>Butterscotch's Boutique</title>
 
 </head>
@@ -24,7 +23,7 @@
 <body>
     <header>
         <!-- NavBar -->
-        <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-3">
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top py-3">
             <a class="navbar-brand" href="#">Butterscotch's Boutique</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +53,10 @@
                     </li>
                     <li class="nav-item">
                         <form class="form-inline">
-                            <button class="btn btn-outline-light" type="submit">Book Now</button>
+                            <button class="btn btn-outline-light" type="submit" data-container="body"
+                                data-toggle="popover" data-placement="bottom" data-trigger="hover"
+                                data-content="Book a grooming appointment today!">
+                                Book Now</button>
                     </li>
                     </form>
                 </ul>
@@ -92,58 +94,55 @@
             </button>
         </div>
     </header>
-
-
-    <!-- <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <h1>Butterscotch's Boutique</h1>
-                    <h2 class="lead">Eat. Play. Groom.</h2>
-                    <p class="d-none d-lg-block jumbo-text">Cut the cheese bocconcini paneer. Cut the cheese melted
-                        cheese chalk and cheese feta paneer cheese on toast mozzarella swiss. Brie cream cheese cheesy
-                        feet bavarian bergkase the big cheese dolcelatte say cheese hard cheese.</p>
-                    <a class="btn btn-primary btn-lg jumbo-button" href="#" role="button">Schedule</a>
-                </div>
-                <div class="col-6">
-                    <div id="homeCarousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#homeCarousel" data-slide-to="1"></li>
-                            <li data-target="#homeCarousel" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="img/corgi.jpg" alt="An image of dogs running.">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="img/sweater.jpg" alt="A dog wearing a sweater.">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="img/Butter.jpg" alt="A dog smiling.">
-                            </div>
-                        </div>
-                    </div>
+    <div class="row">
+        <div class="col-md-4">
+        <!-- Cards -->
+            <div class="card text-center">
+                <img class="card-img-top" src="img/Toy-card.jpg" alt="A dog jumping for a toy.">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Interactive Toys</h5>
+                    <p class="card-text">Doggo ipsum long woofer aqua doggo you are doin me a concern puggorino.</p>
+                    <a href="#" class="btn btn-primary">Play On</a>
                 </div>
             </div>
         </div>
-    </header> -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img class="card-img-top" src="img/eat-card.jpg" alt="Card image cap">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Healthy Food</h5>
+                    <p class="card-text">Doggo ipsum long woofer aqua doggo you are doin me a concern puggorino.</p>
+                    <a href="#" class="btn btn-primary">Dig In</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img class="card-img-top" src="img/pamper-card.jpg" alt="A dog covered in paper hearts.">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Professional Groomers</h5>
+                    <p class="card-text">Doggo ipsum long woofer aqua doggo you are doin me a concern puggorino.</p>
+                    <a href="#" class="btn btn-primary">Treat Yourself</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer>
 
-    <footer>
+        </footer>
 
-    </footer>
-
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"> </script>
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"> </script>
 
 </body>
 
 </html>
 <!-- Photo by <a href="https://unsplash.com/@alvannee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alvan Nee</a> on <a href="https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   -->
-
-<!-- Photo by <a href="https://unsplash.com/@karsten116?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karsten Winegeart</a> on <a href="https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@karsten116?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karsten Winegeart</a> on <a href="https://unsplash.com/s/photos/dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@zhaolong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">龙 赵</a> on <a href="https://unsplash.com/s/photos/dog-food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@zhaolong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">龙 赵</a> on <a href="https://unsplash.com/s/photos/dog-food?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@heyhoneybunny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ivana La</a> on <a href="https://unsplash.com/s/photos/pet-care?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
    -->
