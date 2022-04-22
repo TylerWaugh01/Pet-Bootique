@@ -1,8 +1,8 @@
-body {
+body, a, p {
     font-family: "Poppins";
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
     font-family: "Mullish"
 }
 
@@ -11,7 +11,7 @@ h1, h2, h3 {
 }
 
 nav {
-    background-color:#FF7C1F;
+    background-color:#ff7c1f;
 }
 
 .carousel .carousel-item {
@@ -35,7 +35,7 @@ nav {
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
-  }
+}
 
 .card {
     margin-top: 30px;
@@ -50,6 +50,22 @@ nav {
 
 @media screen and (max-width: 768px) {
     .card-img-overlay {
-      position: static;
+    position: static;
     }
+}
+
+#loginModal .modal-header {
+    background-color: #ff7c1f;
+    color: white;
+}
+
+.site-footer {
+    background-image: linear-gradient(
+        #ff7c1f, white);
+    padding: 20px;
+}
+
+li{
+    margin: 10px 0;
+    text-decoration: none;
 }

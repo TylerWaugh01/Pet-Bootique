@@ -62,9 +62,9 @@
                 </ul>
                 <span class="navbar-text ml-auto">
                     <a role="button" data-toggle="modal" id="loginButton">
-                      <i class="fa fa-sign-in"></i> Login
+                        <i class="fa fa-sign-in"></i> Login
                     </a>
-                  </span>
+                </span>
             </div>
         </nav>
         <!-- Carousel -->
@@ -77,9 +77,10 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="img/corgi.jpg" alt="An image of dogs running.">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="top: 0">
                         <h3>Built To Last</h3>
                         <p class="d-none d-sm-block">We stand by our products. Our toys are as tough as your pup.</p>
+                        <a class="btn btn-primary" href="#" role="button"></a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -186,14 +187,59 @@
         </div>
     </div>
     <footer>
-
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5>Stay Connected</h5>
+                        <p>Join our newsletter to stay in the know about events and surprises!</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="form-group">
+                            <label for="exampleFormControlInput1"></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email Address">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <ul class="list-unstyled mb-5">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Eat</a></li>
+                            <li><a href="#">Play</a></li>
+                            <li><a href="#">Groom</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul class="list-unstyled mb-5">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>Social</h5>
+                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                                class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                                class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
     </footer>
 
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"> </script>
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"> </script>
 
 </body>
 
