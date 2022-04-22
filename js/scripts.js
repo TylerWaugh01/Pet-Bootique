@@ -12,6 +12,12 @@ $(function () {
         }
     });
     
-$('[data-toggle="popover"]').popover(); });
+$('[data-toggle="popover"]').popover(); 
+
+$('#loginButton').on('click', function() {
+    $('#loginModal').modal('show');
+});
+
+});
 
 
