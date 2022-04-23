@@ -3,7 +3,7 @@ body, a, p {
 }
 
 h1, h2, h3, h5 {
-    font-family: "Mullish"
+    font-family: "Mullish";
 }
 
 .header {
@@ -62,10 +62,15 @@ nav {
 .site-footer {
     background-image: linear-gradient(
         #ff7c1f, white);
-    padding: 20px;
+    padding: 20px 0;
 }
 
-li{
-    margin: 10px 0;
-    text-decoration: none;
+.modal-title {
+    color: black;
 }
+
+.eat-jumbo {
+    margin: 0;
+    background-image: url(../img/eat-jumbo.jpg);
+    background-size: cover;
+  }
