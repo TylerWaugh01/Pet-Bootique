@@ -34,9 +34,11 @@ $(function () {
     });
 
 
-$('.cardColor3').hide();
+$('.cardColor2').hide();
+
 $('#infoButton').on('click', function() {
-    $('.cardColor2, .cardColor3').toggle()
+    $('.cardColor1, .cardColor2').toggle()
+    // $("div").remove(".header-remove");
   }
 );
 
