@@ -34,13 +34,28 @@ $(function () {
     });
 
 
-$('.cardColor2').hide();
+$('.cardOneChange').hide();
 
-$('#infoButton').on('click', function() {
-    $('.cardColor1, .cardColor2').toggle()
-    // $("div").remove(".header-remove");
+$('#brandOneButton').on('click', function() {
+    $('.cardOneStandard, .cardOneChange').toggle()
   }
 );
+
+$('.cardTwoChange').hide();
+
+$('#brandTwoButton').on('click', function() {
+    $('.cardTwoStandard, .cardTwoChange').toggle()
+  }
+);
+
+$('.cardThreeChange').hide();
+
+$('#brandThreeButton').on('click', function() {
+    $('.cardThreeStandard, .cardThreeChange').toggle()
+  }
+);
+
+
 
 
     // $("#infoButton").on('click', function () {

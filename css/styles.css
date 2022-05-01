@@ -45,11 +45,6 @@ nav {
     margin: 0px;
 }
 
-/* .cardColor3 img {
-    object-fit: fill;
-    padding: 0px;
-    margin: 0px;
-} */
 
 .header-image{
     width: 100%;
@@ -97,14 +92,35 @@ nav {
     flex: 1 1 auto;
 }
 
-.cardColor1 {
+.cardOneStandard {
     color: orange;
     background-color: blue;
 }
 
-.cardColor2 {
+.cardOneChange {
     color: blue;
     background-color: orange;
+}
+
+.cardTwoChange {
+    color: orange;
+    background-color: blue;
+}
+
+.cardTwoStandard {
+    color: blue;
+    background-color: orange;
+
+}
+
+.cardThreeChange {
+    color: purple;
+    background-color: green;
+}
+
+.cardThreeStandard {
+    color: green;
+    background-color: purple;
 }
 
 
