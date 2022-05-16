@@ -28,7 +28,8 @@ nav {
 
 
 .pet-carousel .pet-carousel-item {
-    height: 500px;
+    height: 600px;
+   
 }  
 
 .pet-carousel-img {
@@ -36,7 +37,8 @@ nav {
     object-fit:cover;
     top: 0;
     left: 0;
-    max-height: 500px;
+    min-height: 600px;
+    /* min-width: 400px; */
 } 
 
 #carouselButton {
