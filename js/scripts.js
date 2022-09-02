@@ -1,18 +1,3 @@
-// $("#infobutton").on('click', function () {
-//     if ($("#cardchange").hasClass("cardColor2")) {
-//         $("#cardchange").removeClass("cardColor2");
-//         $("#cardchange").addClass("cardColor3");
-//         console.log("Test");
-//     } else {
-//         $("#cardchange").removeClass("cardColor3");
-//         $("#cardchange").addClass("cardColor2");
-//         console.log("Test2");
-//     }
-// });
-
-
-
-
 $(function () {
     $(".carousel").carousel({ interval: 4000 });
     $("#carouselButton").on('click', function () {
