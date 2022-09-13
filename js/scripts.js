@@ -40,20 +40,6 @@ $('#brandThreeButton').on('click', function() {
   }
 );
 
-
-
-
-    // $("#infoButton").on('click', function () {
-    //     if ($("#card1").hasClass("cardColor2")) {
-    //         $("#card1").removeClass("cardColor2");
-    //         $("p").remove(); 
-    //         $("#card1").addClass("cardColor3");
-    //     } else {
-    //         $("#card1").removeClass("cardColor3");
-    //         $("#card1").addClass("cardColor2");
-    //     }
-    // });
-
 });
 
 
